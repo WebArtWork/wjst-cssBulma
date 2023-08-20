@@ -1,7 +1,8 @@
-@import "../utilities/mixins"
+@import "../utilities/mixins";
 
-.is-overlay
+.is-overlay{
   @extend %overlay
-
-.is-relative
+}
+.is-relative{
   position: relative !important
+}

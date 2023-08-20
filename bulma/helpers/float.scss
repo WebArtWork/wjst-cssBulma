@@ -1,10 +1,11 @@
-@import "../utilities/mixins"
+@import "../utilities/mixins";
 
-.is-clearfix
+.is-clearfix{
   +clearfix
-
-.is-pulled-left
-  float: left !important
-
-.is-pulled-right
+}
+.is-pulled-left{
+  float: left !important;
+}
+.is-pulled-right{
   float: right !important
+}

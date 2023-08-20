@@ -1,14 +1,15 @@
-@import "../utilities/mixins"
+@import "../utilities/mixins";
 
-.is-radiusless
+.is-radiusless{
   border-radius: 0 !important
-
-.is-shadowless
+}
+.is-shadowless{
   box-shadow: none !important
-
-.is-clickable
-  cursor: pointer !important
+}
+.is-clickable{
+  cursor: pointer !important;
   pointer-events: all !important
-
-.is-unselectable
+}
+.is-unselectable{
   @extend %unselectable
+}

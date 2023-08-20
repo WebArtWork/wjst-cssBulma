@@ -22,58 +22,59 @@ h2,
 h3,
 h4,
 h5,
-h6
+h6{
   margin: 0
   padding: 0
-
+}
 // Headings
 h1,
 h2,
 h3,
 h4,
 h5,
-h6
+h6{
   font-size: 100%
   font-weight: normal
-
+}
 // List
-ul
+ul{
   list-style: none
-
+}
 // Form
 button,
 input,
 select,
-textarea
+textarea{
   margin: 0
-
+}
 // Box sizing
-html
+html{
   box-sizing: border-box
-
+}
 *
   &,
   &::before,
-  &::after
+  &::after{
     box-sizing: inherit
-
+  }
 // Media
 img,
-video
-  height: auto
+video{
+  height: auto;
   max-width: 100%
-
+}
 // Iframe
-iframe
+iframe{
   border: 0
-
+}
 // Table
-table
-  border-collapse: collapse
+table{
+  border-collapse: collapse;
   border-spacing: 0
-
+}
 td,
-th
+th{
   padding: 0
   &:not([align])
     text-align: inherit
+}

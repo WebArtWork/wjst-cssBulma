@@ -1,7 +1,7 @@
-@import "../utilities/mixins"
+@import "../utilities/mixins";
 
-$container-offset: (2 * $gap) !default
-$container-max-width: $fullhd !default
+$container-offset: (2 * $gap) !default;
+$container-max-width: $fullhd !default;
 
 .container
   flex-grow: 1

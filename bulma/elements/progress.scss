@@ -1,12 +1,12 @@
-@import "../utilities/mixins"
+@import "../utilities/mixins";
 
-$progress-bar-background-color: $border-light !default
-$progress-value-background-color: $text !default
-$progress-border-radius: $radius-rounded !default
+$progress-bar-background-color: $border-light !default;
+$progress-value-background-color: $text !default;
+$progress-border-radius: $radius-rounded !default;
 
-$progress-indeterminate-duration: 1.5s !default
+$progress-indeterminate-duration: 1.5s !default;
 
-$progress-colors: $colors !default
+$progress-colors: $colors !default;
 
 .progress
   @extend %block
